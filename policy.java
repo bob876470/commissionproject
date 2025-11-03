@@ -10,7 +10,7 @@ public abstract class Policy {
         this.policyAmount = policyAmount;
     }
 
-    // Abstract method to be implemented by each derived class
+    // Abstract method to be implemented by each derived classs
     public abstract void computeCommission();
 
     public double getCommission() {
